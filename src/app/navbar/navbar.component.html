@@ -1,0 +1,45 @@
+
+<div class="container pb-3">
+    <nav class="navbar navbar-expand-sm">
+      <!-- <div class="navbar-brand"> -->
+        <!-- <i class="fas fa-code fa-2x text-warning pb-2"></i>
+        <h5 class="text-white d-inline ps-2">Portfolio</h5> -->
+      <!-- </div> -->
+  
+      <button 
+                  class="navbar-toggler" 
+                  type="button" 
+                  data-toggle="collapse" 
+                  data-target="#toggleMobileMenu" 
+                  aria-controls="toggleMobileMenu" 
+                  aria-expanded="false" 
+                  aria-label="Toggle navigation"
+              >
+              <span class="navbar-toggler-icon">
+                <i class="fas fa-bars" style="color:black; font-size:28px;"></i>
+  
+              </span>
+    </button>
+              <div class="collapse navbar-collapse" id="toggleMobileMenu">
+              
+                  <ul class="navbar-nav ms-auto text-center">
+                      <li>
+                        <a [routerLink]="['/gallery','all']" class="text-black nav-link">All</a>                    
+                      </li>
+                      <li>
+                        <a [routerLink]="['/gallery','nature']" class="text-black nav-link">Nature</a>
+                      </li>
+                      <li>
+                        <a [routerLink]="['/gallery','flowers']" class="text-black nav-link">Flowers</a>
+                      </li>
+                      <li>
+                        <a [routerLink]="['/gallery','boats']" class="text-black nav-link">Boats</a>
+                      </li>
+                  </ul>
+                  
+  
+              </div>
+    </nav>
+  
+  </div>
+  <!-- <app-gallery [category]="category"></app-gallery> -->

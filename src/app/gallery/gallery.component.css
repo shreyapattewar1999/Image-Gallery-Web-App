@@ -1,0 +1,7 @@
+img {
+    border: 3px solid black;
+    box-shadow: 3px 3px 3px 3px #0887a1;
+      -moz-box-shadow: 3px 3px 3px 3px #0887a1;
+      -webkit-box-shadow: 3px 3px 3px 3px #0887a1;
+      -khtml-box-shadow: 3px 3px 3px 3px #0887a1;
+}

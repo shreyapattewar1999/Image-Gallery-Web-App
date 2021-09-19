@@ -1,0 +1,12 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col d-flex justify-content-center" *ngFor="let i of images">
+            <div class="card m-2 border-2 border-secondary" style="width: 20rem;">
+                <a [routerLink]="['/imageDetail', i.id]" target="_blank"><img class="card-img-top" src="{{i.src.medium}}"  alt="Card image cap"  height="200px"></a>
+                <!-- <h4>{{i.src.medium}}</h4> -->
+            </div>
+        </div>
+
+    </div>
+
+</div>

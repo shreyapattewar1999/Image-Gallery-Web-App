@@ -1,0 +1,14 @@
+.nav-link{
+    border: 2px solid transparent;
+}
+
+.nav-link:hover{
+    text-decoration: none;
+    border-bottom: 3px solid black;
+    transition: 0.1s ease;
+    font-size: larger;
+    transform: scale(1.01);
+}
+a{
+    text-decoration: none;
+}
